@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-vector/gradient-pastel-sky-background_23-2148897009.jpg");
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.full-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    height: 430px;
+}
+
+.form-group {
+  margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+
+label {
+    font-weight: bold;
+}
+
+input.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbc8c8;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.col-sm-4 {
+    margin-bottom: 20px;
+}
+
+.register,
+.btn-success {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.register:hover,
+.btn-success:hover {
+    background-color: #45a049;
+}
+ 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<head>
+
+    <title> Welcome Page</title>
+    <style>
+        body {
+          background-color: #eb9ed3; /* Initial background color */
+          transition: background-color 0.5s ease; /* Transition for background color with a duration of 0.5 seconds and ease timing function */
+        }
+    
+        body:hover {
+          background-color: #e7b793; /* New background color on hover */
+        }
+      </style>
+</head>
+<body>
+<h2>Welcome to Firebase Home Page</h2>
+<center><button type="button" id="logout">Logout</button></center>
+
+<script>
+    document.getElementById("logout").addEventListener("click", function(){
+        window.location.href="auth.html";
+    })
+</script>
+</body>
+</html>
